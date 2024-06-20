@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-0x03-log_parsing
+log parsing
 """
 
 import sys
@@ -9,7 +9,7 @@ import re
 
 def output(log: dict) -> None:
     """
-    the helper function displaying stats.
+    helper function to display stats
     """
     print("File size: {}".format(log["file_size"]))
     for code in sorted(log["code_frequency"]):
